@@ -1,31 +1,36 @@
 body{
   margin: 0;
+  padding: 0;
+}
+.hero-image-div{
+  /* background-color: red; */
+  height: 100vh;
+  padding: 0;
+  text-align: center;
+
+}
+.hero-info-div{
+  background-color: yellow;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100vh;
+
 }
 .logo-image{
-  width: 18%;
-  height: 28%;
-  display: inline-block;
+  height: 100%;
 }
-.logo-image-div{
-  text-align: left;
-}
-.hero{
+.header-contact{
+  padding: 10% 15%;
   text-align: center;
-  padding: 0 15%;
 }
-h1{
-  font-size: 4em;
-  display: inline-block;
+.header-contact-button{
+  margin: 2%;
 }
-.hero-h3{
-  padding: 2% 0;
-  font-size: 2em;
+.header-contact-hero-h4{
+  padding: 5% 5%;
 }
-.hero-h2{
-  padding: 4% 0;
-  font-size: 2em;
-}
-.hero-h4{
+.hero-info{
   padding: 2% 0;
   font-size: 1.5em;
 }
