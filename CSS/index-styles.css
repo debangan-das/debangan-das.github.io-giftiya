@@ -1,36 +1,103 @@
 body{
   margin: 0;
   padding: 0;
+
 }
 .hero-image-div{
   /* background-color: red; */
   height: 100vh;
-  padding: 0;
+  
   text-align: center;
 
 }
 .hero-info-div{
-  background-color: yellow;
+  background-color: #88cf2c;
   padding-top: 10%;
   padding-left: 5%;
   padding-right: 5%;
   height: 100vh;
 
+
+}
+.hero-button{
+  background-color: white;
+  border-width: 0;
+  border-radius: 25px;
+  padding:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
 .logo-image{
   height: 100%;
+  width: 80%;
+  padding: 0 5%;
 }
 .header-contact{
   padding: 10% 15%;
   text-align: center;
+  background-color: #17b4ac;
+  /* margin: 4% 0; */
+  /* width: 90vw; */
 }
 .header-contact-button{
   margin: 2%;
+  background-color: white;
+  border-width: 0;
+  border-radius: 25px;
+  padding:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
-.header-contact-hero-h4{
+.header-contact-h4{
   padding: 5% 5%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7em;
 }
 .hero-info{
   padding: 2% 0;
   font-size: 1.5em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#footer{
+  padding: 10% 15%;
+  text-align: center;
+  background-color: #f21962;
+width: 100%;
+}
+.footer-h5{
+  padding: 5% 5%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+.footer-button{
+  margin: 0 2%;
+  background-color: white;
+  border-width: 0;
+  border-radius: 25px;
+  padding:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+#our-products{
+  padding: 10% 15%;
+  text-align: center;
+}
+#our-products h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+  padding: 0 5% 5% 5% ;
+}
+#our-products h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
+.row{
+  /* width: 99.90vw; */
+  /* width: 100vw; */
+  width: 100%;
+  margin: 0;
 }
