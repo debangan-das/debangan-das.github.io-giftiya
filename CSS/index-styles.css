@@ -3,21 +3,63 @@ body{
   padding: 0;
 
 }
+#navbar-logo{
+  height: 60px;
+  width: 50px;
+  margin-left: 10px;
+}
+.navbar-nav{
+  margin-left: auto;
+}
 .hero-image-div{
-  /* background-color: red; */
-  height: 100vh;
-
+  height: 40vh;
   text-align: center;
-
 }
 .hero-info-div{
-  background-color: #88cf2c;
-  padding-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: 100vh;
+  background-color: #e2165b;
+  padding: 4%;
+  height: 40vh;
 
 
+}
+.hero-info{
+  padding: 1% 0;
+  font-size: 1.7em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-discount-div{
+  height: 40vh;
+  text-align: center;
+  padding: 5% 0%;
+}
+.hero-row-2{
+  position: relative;
+  padding: 1% 0 1% 0;
+}
+.hero-discount-image-div{
+  height: 40vh;
+
+}
+.discount-image{
+  width: 100%;
+  height: 100%;
+}
+.discount-info{
+  padding: 1% 0;
+  font-size: 1.5em;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+.order-now-button{
+  background-color: #e2165b;
+  border-radius: 25px;
+  border-width: 0;
+  color: white;
+  padding: 2% 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
 .hero-button{
   background-color: white;
@@ -29,37 +71,45 @@ body{
 }
 .logo-image{
   height: 100%;
-  width: 85%;
+
   padding: 0 5%;
+  position: relative;
 }
-.header-contact{
+#order-product-details{
   padding: 10% 15%;
   text-align: center;
-  background-color: #17b4ac;
-  /* margin: 4% 0; */
-  /* width: 90vw; */
+  background-color: #05a69e;
+  position: relative;
+  margin-top: 8%;
 }
-.header-contact-button{
-  margin: 2%;
-  background-color: white;
-  border-width: 0;
-  border-radius: 25px;
-  padding:10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-}
-.header-contact-h4{
-  padding: 5% 5%;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.7em;
-}
-.hero-info{
-  padding: 2% 0;
+.order-product-info{
+  padding: 1% 0;
   font-size: 1.5em;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
+.social-icon-buttons{
+  background-color: white;
+  border-radius: 50px;
+  border-width: 0;
+  margin: 1%;
+  font-size: 1.5em;
+  padding: 12px 12px;
+  height: 60px;
+  width: 70px;
+  text-align: center;
+}
+.order-buttons{
+  color: white;
+  background-color: #43e636;
+  border-width: 0;
+  border-radius: 25px;
+  /* height: 50px;
+  width: 50px; */
+  font-size: 1em;
+}
+
+
 #footer{
   padding: 10% 15%;
   text-align: center;
@@ -97,6 +147,9 @@ width: 100%;
   /* width: 100vw; */
   width: 100%;
   margin: 0;
+  position: relative;
+  top: 100px;
+
 }
 .product-headings{
   font-family: 'Montserrat', sans-serif;
