@@ -133,14 +133,14 @@ width: 100%;
 }
 
 #our-products{
-  padding: 10% 10%;
+  padding: 0 10% 10% 10%;
   text-align: center;
 }
-#our-products h2{
+/* #our-products h2{
   font-family: 'Raleway', sans-serif;
   font-size: 4em;
   padding: 0 5% 0 5% ;
-}
+} */
 
 .row{
   /* width: 99.90vw; */
@@ -149,13 +149,14 @@ width: 100%;
   margin: 0;
   position: relative;
   top: 100px;
+  
 
 }
 .product-headings{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
-  padding-top: 10%;
-  padding-bottom: 4%;
+  padding-top: 20%;
+  /* padding-bottom: 1%; */
 }
 
 @media screen and (max-width: 990px) {
