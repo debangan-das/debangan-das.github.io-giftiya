@@ -11,6 +11,15 @@ body{
 .navbar-nav{
   margin-left: auto;
 }
+.nav-item{
+  margin-left: auto;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+}
+.dropdown-item{
+  font-family: 'Montserrat', sans-serif;
+}
 .hero-image-div{
   height: 40vh;
   text-align: center;
@@ -21,6 +30,14 @@ body{
   height: 40vh;
 
 
+}
+.hero-button{
+  background-color: white;
+  border-width: 0;
+  border-radius: 25px;
+  padding:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
 .hero-info{
   padding: 1% 0;
@@ -35,7 +52,7 @@ body{
 }
 .hero-row-2{
   position: relative;
-  padding: 1% 0 1% 0;
+  padding: 0 0 1% 0;
 }
 .hero-discount-image-div{
   height: 40vh;
@@ -61,14 +78,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
-.hero-button{
-  background-color: white;
-  border-width: 0;
-  border-radius: 25px;
-  padding:10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-}
+
 .logo-image{
   height: 100%;
 
@@ -136,27 +146,23 @@ width: 100%;
   padding: 0 10% 10% 10%;
   text-align: center;
 }
-/* #our-products h2{
-  font-family: 'Raleway', sans-serif;
-  font-size: 4em;
-  padding: 0 5% 0 5% ;
-} */
+
 
 .row{
-  /* width: 99.90vw; */
-  /* width: 100vw; */
+
   width: 100%;
-  margin: 0;
+  margin: 0 0 50px 0;
   position: relative;
   top: 100px;
-  
+
 
 }
 .product-headings{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
-  padding-top: 20%;
+  /* padding-top: 100px; */
   /* padding-bottom: 1%; */
+  margin-top: 200px;
 }
 
 @media screen and (max-width: 990px) {
@@ -165,7 +171,7 @@ width: 100%;
     margin-bottom: 5%;
   }
   .hero-image-div{
-    height: 50vh;
+    height: 30vh;
   }
   .logo-image{
     width: auto;
@@ -176,16 +182,18 @@ width: 100%;
     padding-bottom: 15%;
     padding-left: 5%;
     padding-right: 5%;
+
   }
   .hero-info{
     padding-left: 5%;
     padding-right: 5%;
   }
-  .header-contact-h4{
-    padding: 5% 0;
+  .hero-button{
+    margin-top: 2%;
   }
-  #our-products h2{
-    font-size: 3em;
+  .social-icon-buttons{
+    margin: 2%;
+    padding: 10px 10px;
   }
 
 
