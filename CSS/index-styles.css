@@ -10,6 +10,11 @@ body{
 }
 .navbar-nav{
   margin-left: auto;
+
+}
+.navbar{
+  /* padding-top: 0;
+  padding-bottom: 0; */
 }
 .nav-item{
   margin-left: auto;
@@ -38,6 +43,7 @@ body{
   padding:10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+  box-shadow: 3px 3px 5px black;
 }
 .hero-info{
   padding: 1% 0;
@@ -77,6 +83,7 @@ body{
   padding: 2% 3%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+  box-shadow: 3px 3px 5px grey;
 }
 
 .logo-image{
@@ -108,6 +115,7 @@ body{
   height: 60px;
   width: 70px;
   text-align: center;
+  box-shadow: 3px 3px 5px black;
 }
 .order-buttons{
   color: white;
@@ -116,7 +124,15 @@ body{
   border-radius: 25px;
   /* height: 50px;
   width: 50px; */
-  font-size: 1em;
+  font-size: 1.1em;
+  box-shadow: 3px 3px 5px grey;
+}
+.card{
+
+
+}
+.row1{
+  /* display: table; */
 }
 
 
@@ -140,6 +156,7 @@ width: 100%;
   padding:10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+  box-shadow: 3px 3px 5px black;
 }
 
 #our-products{
@@ -151,9 +168,9 @@ width: 100%;
 .row{
 
   width: 100%;
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
   position: relative;
-  top: 100px;
+  top: 80px;
 
 
 }
@@ -191,6 +208,10 @@ width: 100%;
   .hero-button{
     margin-top: 2%;
   }
+  /* .discount-image{
+    max-width: 350px;
+    max-height: 300px; */
+
   .social-icon-buttons{
     margin: 2%;
     padding: 10px 10px;
